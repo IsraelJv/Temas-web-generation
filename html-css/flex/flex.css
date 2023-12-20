@@ -1,0 +1,38 @@
+.flex-container {
+    align-items: center; /*Acomodar items a lo vertical*/
+    background-color: var(--highlight);
+    display: flex; /*Para hacer uso de flex*/
+    flex-wrap: wrap;
+    height: 200px;
+    justify-content: space-around; /*Acomodar items a lo horizontal*/
+}
+
+.flex-container div {
+    font-size: 1.5rem;
+    height: 30px;
+    padding: 5px;
+    text-align: center; /*Centrar texto*/
+    width: 100px;
+}
+
+.flex-container2 {
+    align-items: center;
+    background-color: var(--highlight);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 200px;
+    justify-content: space-between; 
+}
+
+.flex-container2 div {
+    font-size: 1.5rem;
+    height: 30px;
+    padding: 5px;
+    text-align: center; /*Centrar texto*/
+    width: 100px;
+}
+
+#box2 {
+    order: -1;
+}
