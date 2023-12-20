@@ -1,0 +1,19 @@
+:root {
+    --main-bg-color: #219C90;
+    --secondary: #E9B824;
+    --highlight: #D83F31;
+    --light: #EE9322;
+}
+
+body {
+    width: 100vw;
+    height: 100px;
+    margin: 0;
+    background-color: var(--main-bg-color);
+}
+
+.container {
+    background-color: var(--secondary);
+    height: auto;
+    margin: 40px 0;
+}
